@@ -3,7 +3,10 @@ import LiveChannelInfo from './LiveChannelInfo.jsx'
 
 function Discover(){
     return(
-        <LiveChannelInfo/>
+        <div>
+            <LiveChannelInfo/>
+            <LiveChannelInfo/>
+        </div>
     )
 }
 

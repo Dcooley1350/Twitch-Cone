@@ -15,10 +15,11 @@ function NavBar() {
             <form>
               <div class="input-field">
                 <input id="search" type="search" required></input>
-                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                <i class="material-icons">close</i>
+                <label class="label-icon" for="search"></label>
               </div>
             </form>
+            <button id="LogIn">Log in</button>
+            <button id="SignUp">SignUp</button>
           </li>
         </ul>
       </div>
